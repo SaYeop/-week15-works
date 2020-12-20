@@ -1,0 +1,131 @@
+
+
+
+.G2 {
+  width: 15%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+
+  animation-name: G2;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+animation-iteration-count:1;
+}
+.G3 {
+  width: 15%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+
+  animation-name: G3;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+animation-iteration-count: 1;
+}
+
+.bule {
+  width: 0%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  animation-name: bule;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+animation-iteration-count: 1;
+}
+
+.text {
+  width: 100%;
+  height: 3%;
+  background-color: #000000;
+  position: absolute;
+  top: 5%;
+  left: 0%;
+}
+.text2 {
+  width: 100%;
+  height: 3%;
+  background-color: #000000;
+  position: absolute;
+  top: 90%;
+  left: 0%;
+}
+
+.T1 {
+	font-size: 300%;
+    font-family: helvetica;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.T2 {
+	font-size: 300%;
+    font-family: helvetica;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.T3 {
+	font-size: 300%;
+    font-family: helvetica;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right,#000000,#ffffff,#000000);
+    text-align: center;
+  }
+  .G4 {
+    width: 0%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    animation: opacitys;  
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@-webkit-keyframes G2 {
+  0% {
+     
+  }
+  100%{
+      transform: translateX(-200%);
+  }
+}
+@-webkit-keyframes G3 {
+  0% {
+     
+  }
+  100%{
+      
+      transform: translateX(200%);
+  }
+}
+
+@-webkit-keyframes bule {
+  0% {
+     width: 0%;
+  }
+  100%{
+      
+      width: 60%;
+  }
+}
+@-webkit-keyframes opacitys {
+  0% { 
+      opacity: 1; 
+  }
+
+  100% {
+       opacity: 0;
+    }
+  }
